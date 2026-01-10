@@ -2,8 +2,6 @@
 
 # A1 Extract Your Human Job Into Skills
 
-> Active
-
 Turn what you already do into 3–5 focused, reusable capabilities that replace parts of your own job and could help others with similar work.
 
 ## Actions
