@@ -1,4 +1,4 @@
-# Git Atomic Commit Principle
+# Project Structure & Git Atomic Commit Principle
 
 ## Core Principle
 Apply the atomic commit principle: `git add`, `commit`, and `push` for every atomic work and small task.
@@ -32,6 +32,13 @@ An atomic commit is a single, indivisible unit of change that:
 4. git push origin <current-branch>
 5. Repeat for next atomic task
 ```
+
+## Project Directory Structure
+- **linkedin-posts/**: All LinkedIn posts will be saved in this directory
+- **graphic-design/**: Graphic designing related work and images
+- **frontend-design/**: Frontend designing related tasks within subfolders
+- **prompt-engineering/**: JSON formatted prompts (.json files)
+- **ui-ux-feedback/**: UI/UX feedback and reviews in Markdown format (.md files)
 
 ## Best Practices
 - Keep commits under 50 lines when possible
