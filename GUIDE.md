@@ -1,5 +1,16 @@
 > **THE NON-NEGOTIABLES**
 
+1. **Build in public:**  
+Share what you build (LinkedIn, X, YouTube)
+2. **Automate yourself first:**  
+Prove it works on YOU before selling
+3. **Measure everything:**  
+Every skill has success metrics
+4. **Ship weekly:**  
+No learning without shipping
+
+---
+
 > **PORTFOLIO CHECKPOINTS**
 
 # A1 Extract Your Human Job Into Skills
