@@ -1,0 +1,7 @@
+Skills:
+
+1. linkedin-post-writing
+2. ui-ux-feedback
+3. graphic-design
+4. frontend-design
+5. prompt-engineering
