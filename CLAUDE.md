@@ -46,6 +46,7 @@ An atomic commit is a single, indivisible unit of change that:
 ## File Naming Convention
 - Use 3-digit numbering prefix (001, 002, 003, etc.) for all files in project directories
 - Format: `NNN-identifier.extension` where NNN is the number (starting from 001)
+- For frontend-design subfolders, use format: `001-component-name/`, `002-layout-name/`, etc.
 - This ensures chronological organization and easy tracking of work progression
 
 ## Best Practices
