@@ -1,3 +1,5 @@
+> **THE NON-NEGOTIABLES**
+
 > **PORTFOLIO CHECKPOINTS**
 
 # A1 Extract Your Human Job Into Skills
