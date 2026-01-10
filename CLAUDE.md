@@ -37,11 +37,16 @@ An atomic commit is a single, indivisible unit of change that:
 ```
 
 ## Project Directory Structure
-- **linkedin-posts/**: All LinkedIn posts will be saved in this directory
-- **graphic-design/**: Graphic designing related work and images
-- **frontend-design/**: Frontend designing related tasks within subfolders of each tasks.
-- **prompt-engineering/**: JSON formatted prompts (.json files)
-- **ui-ux-feedback/**: UI/UX feedback and reviews in Markdown format (.md files)
+- **linkedin-posts/**: All LinkedIn posts will be saved in this directory with numbering prefix (e.g., 001-post-title.md, 002-another-post.md)
+- **graphic-design/**: Graphic designing related work and images with numbering prefix (e.g., 001-design-name.png, 002-another-design.jpg)
+- **frontend-design/**: Frontend designing related tasks within subfolders of each tasks with numbering prefix (e.g., 001-component-name/, 002-another-component/)
+- **prompt-engineering/**: JSON formatted prompts with numbering prefix (.json files, e.g., 001-prompt-name.json, 002-another-prompt.json)
+- **ui-ux-feedback/**: UI/UX feedback and reviews in Markdown format with numbering prefix (.md files, e.g., 001-feedback.md, 002-review.md)
+
+## File Naming Convention
+- Use 3-digit numbering prefix (001, 002, 003, etc.) for all files in project directories
+- Format: `NNN-identifier.extension` where NNN is the number (starting from 001)
+- This ensures chronological organization and easy tracking of work progression
 
 ## Best Practices
 - Keep commits under 50 lines when possible
