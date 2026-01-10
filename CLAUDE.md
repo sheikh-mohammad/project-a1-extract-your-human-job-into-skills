@@ -3,6 +3,9 @@
 ## Core Principle
 Apply the atomic commit principle: `git add`, `commit`, and `push` for every atomic work and small task.
 
+> Use this principle also when user says `git`
+> This means for every git command or git-related task, make atomic commits
+
 ## What is an Atomic Commit?
 An atomic commit is a single, indivisible unit of change that:
 - Contains only one logical change
@@ -36,7 +39,7 @@ An atomic commit is a single, indivisible unit of change that:
 ## Project Directory Structure
 - **linkedin-posts/**: All LinkedIn posts will be saved in this directory
 - **graphic-design/**: Graphic designing related work and images
-- **frontend-design/**: Frontend designing related tasks within subfolders
+- **frontend-design/**: Frontend designing related tasks within subfolders of each tasks.
 - **prompt-engineering/**: JSON formatted prompts (.json files)
 - **ui-ux-feedback/**: UI/UX feedback and reviews in Markdown format (.md files)
 
