@@ -75,7 +75,7 @@ After image generation:
 - **Design Purpose**: The purpose of the design (e.g. LinkedIn post, banner, thumbnail)
 - **Style Keywords**: Optional style keywords to influence the design
 - **Color Preferences**: Optional color preferences for the design
-- **Dimensions**: Optional dimensions or aspect ratio requirements
+- **Size/Dimensions**: Required dimensions or aspect ratio for the image (e.g., "1080x1080", "16:9", "1920x1080")
 
 ## Output
 
