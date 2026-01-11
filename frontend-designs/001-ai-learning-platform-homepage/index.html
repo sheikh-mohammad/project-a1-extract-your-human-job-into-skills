@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learn Hub | Modern AI Learning Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#1e40af',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-primary">
+                            <i class="fas fa-brain mr-2"></i>AI Learn Hub
+                        </h1>
+                    </div>
+                </div>
+                <nav class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-gray-900 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#features" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Features</a>
+                        <a href="#benefits" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Benefits</a>
+                        <a href="#cta" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Get Started</a>
+                    </div>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <button class="bg-primary hover:bg-secondary text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        Master AI with<br>
+                        <span class="text-primary">Modern Learning</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Join thousands of students building their future in AI. Interactive courses, hands-on projects, and expert guidance to accelerate your AI journey.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-primary hover:bg-secondary text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg">
+                            Start Learning Free
+                        </button>
+                        <button class="border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200">
+                            Watch Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-white p-8 rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%233b82f6' opacity='0.1'/%3E%3Ccircle cx='200' cy='150' r='80' fill='%233b82f6' opacity='0.2'/%3E%3Cpath d='M150,100 L250,100 L230,200 L170,200 Z' fill='%231e40af' opacity='0.3'/%3E%3C/svg%3E" alt="AI Learning Dashboard" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Powerful Learning Features</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Everything you need to master AI concepts and build practical skills
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-laptop-code text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Interactive Coding</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Practice AI concepts with hands-on coding exercises in your browser. No setup required.
+                    </p>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-project-diagram text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Real Projects</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Build portfolio-worthy projects that showcase your AI skills to employers.
+                    </p>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-chalkboard-teacher text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Expert Guidance</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Learn from industry professionals with years of AI experience and insights.
+                    </p>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-certificate text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Certification</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Earn recognized certificates to validate your AI expertise and advance your career.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Benefits Section -->
+    <section id="benefits" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Transform Your Career with AI Skills
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Our comprehensive learning platform is designed to take you from beginner to AI professional with structured pathways and hands-on experience.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Structured Learning Paths</h3>
+                                <p class="text-gray-600">Follow proven pathways from fundamentals to advanced AI concepts.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Hands-on Experience</h3>
+                                <p class="text-gray-600">Build real-world projects that demonstrate your practical skills.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Community Support</h3>
+                                <p class="text-gray-600">Join a community of learners and professionals supporting your growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="text-center p-6 bg-blue-50 rounded-xl">
+                                <div class="text-3xl font-bold text-primary mb-2">50K+</div>
+                                <div class="text-gray-600">Active Learners</div>
+                            </div>
+                            <div class="text-center p-6 bg-indigo-50 rounded-xl">
+                                <div class="text-3xl font-bold text-secondary mb-2">98%</div>
+                                <div class="text-gray-600">Success Rate</div>
+                            </div>
+                            <div class="text-center p-6 bg-blue-50 rounded-xl">
+                                <div class="text-3xl font-bold text-primary mb-2">200+</div>
+                                <div class="text-gray-600">AI Courses</div>
+                            </div>
+                            <div class="text-center p-6 bg-indigo-50 rounded-xl">
+                                <div class="text-3xl font-bold text-secondary mb-2">24/7</div>
+                                <div class="text-gray-600">Support</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="cta" class="py-20 bg-gradient-to-r from-primary to-secondary">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Ready to Start Your AI Journey?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                Join thousands of students who have transformed their careers with our comprehensive AI learning platform.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg">
+                    Get Started Free
+                </button>
+                <button class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200">
+                    Schedule Demo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        <i class="fas fa-brain mr-2"></i>AI Learn Hub
+                    </h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Empowering the next generation of AI professionals with modern learning tools and expert guidance.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Platform</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Courses</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Projects</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Certificates</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Tutorials</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Community</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 AI Learn Hub. All rights reserved. Built with modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Simple animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for fade-in effect
+        document.querySelectorAll('.bg-gray-50.p-8.rounded-2xl.shadow-sm').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
