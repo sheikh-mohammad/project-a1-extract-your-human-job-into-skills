@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Script to enhance raw prompts using the six-part framework
+# Returns output in JSON format
 # Usage: ./enhance_prompt.sh "raw prompt"
 
 RAW_PROMPT="$1"
@@ -11,18 +12,13 @@ if [ -z "$RAW_PROMPT" ]; then
     exit 1
 fi
 
-echo "Original prompt: $RAW_PROMPT"
-echo ""
-echo "Enhanced prompt using the six-part framework:"
-echo "=============================================="
-
-# Placeholder for enhanced prompt generation
-# In a real implementation, this would apply the six-part framework
-cat << EOF
+# Create a temporary file with the enhanced prompt
+TEMP_FILE=$(mktemp)
+cat > "$TEMP_FILE" << EOF
 **COMMAND:**
 Analyze and improve the following prompt to make it more specific and actionable:
 
-"$RAW_PROMPT"
+$RAW_PROMPT
 
 **CONTEXT:**
 The user needs a professionally-structured prompt that will generate high-quality responses from AI models. The prompt should follow best practices for clarity and effectiveness.
@@ -49,7 +45,41 @@ Present the enhanced prompt with clear sections:
 Ask me 3 questions that would help you further refine this enhanced prompt for my specific use case:
 EOF
 
-echo ""
-echo "=============================================="
-echo "Enhancement complete! The enhanced prompt above incorporates the six-part framework"
-echo "and best practices for effective prompt engineering."
+# Read the enhanced prompt and prepare it for JSON
+ENHANCED_PROMPT=$(cat "$TEMP_FILE" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g')
+
+# Clean up
+rm "$TEMP_FILE"
+
+# Escape the original prompt for JSON
+ESCAPED_ORIGINAL=$(printf '%s' "$RAW_PROMPT" | sed 's/"/\\"/g' | sed 's/\\/\\\\/g')
+
+# Create JSON output
+cat << EOF
+{
+  "originalPrompt": "$ESCAPED_ORIGINAL",
+  "enhancedPrompt": "$ENHANCED_PROMPT",
+  "frameworkApplied": [
+    "Command: Strengthened the initial directive",
+    "Context: Provided comprehensive background",
+    "Logic: Defined the output structure and reasoning approach",
+    "Roleplay: Assigned expert role to the AI",
+    "Formatting: Specified output structure requirements",
+    "Questions: Included refinement questions"
+  ],
+  "improvementNotes": [
+    "Converted vague request to specific, actionable command",
+    "Added context about the purpose and requirements",
+    "Defined clear structure for the response",
+    "Assigned expert role to improve response quality",
+    "Specified formatting requirements",
+    "Included questions for iterative refinement"
+  ],
+  "expectedBenefits": [
+    "More focused and specific AI responses",
+    "Higher quality output due to clear instructions",
+    "Better adherence to desired format and style",
+    "Improved relevance to user's specific needs"
+  ]
+}
+EOF

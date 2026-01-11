@@ -79,7 +79,13 @@ The skill implements the comprehensive six-part framework for optimal prompt eng
 
 ## Output
 
-An enhanced, professionally-structured prompt that incorporates the six-part framework and other best practices, designed to produce superior results from AI models.
+An enhanced, professionally-structured prompt in JSON format that incorporates the six-part framework and other best practices, designed to produce superior results from AI models. The JSON output includes:
+
+- `originalPrompt`: The input prompt provided by the user
+- `enhancedPrompt`: The improved prompt following the six-part framework
+- `frameworkApplied`: Details of which framework elements were applied
+- `improvementNotes`: Explanation of the enhancements made
+- `expectedBenefits`: Expected improvements from the enhanced prompt
 
 ## Before Implementation
 
