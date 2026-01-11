@@ -139,6 +139,6 @@ For more information on Claude Code features and workflows, refer to Part 2, Cha
 
 Watch a 60-90 second demonstration of the skills in action:
 
-
+[Watch Video on YouTube](https://youtu.be/v0tPClSCeM8?si=WVVxGU23nsL5rDEO)
 
 This video showcases how the developed skills automate routine tasks and provide measurable time savings as described in the Skills Impact & Success Metrics section.
