@@ -1,0 +1,27 @@
+{
+  "originalPrompt": "Write a post on linked in to tell about the future of spec-driven development in 2026",
+  "enhancedPrompt": "Generate a compelling LinkedIn post that explores the future of spec-driven development in 2026. As an experienced software development consultant with deep knowledge of specification-driven methodologies, create a post that captures the attention of tech professionals, engineering managers, and CTOs who are interested in emerging development practices. The post should be approximately 300-400 words, written in an engaging, professional yet conversational tone that encourages interaction. Include specific predictions about how AI integration, collaborative tools, and automated validation will shape spec-driven development by 2026. Address potential challenges alongside opportunities, and conclude with a thought-provoking question to encourage engagement from the LinkedIn community. Structure the post with a strong hook, 2-3 key insights with brief explanations, and a clear call to action. Use relevant hashtags like #SpecDrivenDevelopment #TechTrends2026 #SoftwareDevelopment #AI #DevOps.",
+  "frameworkApplied": [
+    "Command: Clear directive to generate a LinkedIn post",
+    "Context: Target audience defined (tech professionals, engineering managers, CTOs), timeline specified (2026), word count provided (300-400 words)",
+    "Logic: Specific structure required (hook, insights, call to action)",
+    "Roleplay: Experienced software development consultant persona assigned",
+    "Formatting: Word count and structural requirements specified",
+    "Questions: Post must end with thought-provoking question for engagement"
+  ],
+  "improvementNotes": [
+    "Added specific role for the AI to adopt (experienced software development consultant)",
+    "Defined target audience to narrow the focus",
+    "Specified content requirements (predictions about AI, collaboration, automation)",
+    "Set structural guidelines (hook, insights, call to action)",
+    "Added engagement requirement (thought-provoking question)",
+    "Included hashtag recommendations for social media optimization"
+  ],
+  "expectedBenefits": [
+    "More targeted and relevant content for the intended audience",
+    "Better structure and readability",
+    "Higher likelihood of engagement due to interactive elements",
+    "Professional tone appropriate for LinkedIn platform",
+    "Specific content requirements ensure comprehensive coverage of topic"
+  ]
+}
