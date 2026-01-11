@@ -39,7 +39,7 @@ An atomic commit is a single, indivisible unit of change that:
 ## Project Directory Structure
 - **linkedin-posts/**: All LinkedIn posts will be saved in this directory with numbering prefix (e.g., 001-post-title.md, 002-another-post.md)
 - **graphic-designs/**: Graphic designing related work and images with numbering prefix (e.g., 001-design-name.png, 002-another-design.jpg)
-- **frontend-designs/**: Frontend designing related tasks within subfolders of each tasks with numbering prefix (e.g., 001-component-name/, 002-another-component/)
+- **ui-designs/**: Frontend designing related tasks within subfolders of each tasks with numbering prefix (e.g., 001-component-name/, 002-another-component/)
 - **prompts/**: All JSON formatted ehanced prompts with numbering prefix (.json files, e.g., 001-prompt-name.json, 002-another-prompt.json)
 
 ## File Naming Convention
