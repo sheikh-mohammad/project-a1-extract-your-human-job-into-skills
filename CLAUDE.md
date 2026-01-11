@@ -54,3 +54,4 @@ An atomic commit is a single, indivisible unit of change that:
 - Separate formatting changes from functional changes
 - Use present tense in commit messages ("Add feature" not "Added feature")
 - Follow conventional commit format when applicable
+- Always co-author commits with Claude Code by including "Co-authored-by: Claude Sonnet 4.5 <noreply@anthropic.com>" in commit messages when working collaboratively
