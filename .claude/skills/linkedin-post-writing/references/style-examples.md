@@ -2,7 +2,7 @@
 
 ## Overview
 
-This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing and speaking style. Use these as guidance when generating LinkedIn posts in his voice - with a fun twist! 😄
+This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing and speaking style. Use these as guidance when generating LinkedIn posts in his voice.
 
 ## Style Elements
 
@@ -35,7 +35,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 - Positive language
 - Shows excitement about possibilities
 - Motivates readers to take action
-- Sometimes with light humor to keep things interesting 😊
 
 ### 7. Simple Technical Explanations
 - Makes complex topics accessible
@@ -46,12 +45,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 - Asks rhetorical questions
 - Adds clarifications naturally
 - Uses phrases like "you know" or "right?"
-
-### 9. Personality and Humor
-- Adds light, appropriate humor to engage readers
-- Uses emojis strategically to enhance tone 😄
-- Makes posts feel more human and relatable
-- Keeps professional content approachable
 
 ## Language Patterns
 
@@ -69,14 +62,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 - "Now" - to indicate next steps
 - "Also" - to add additional information
 - "Because" - to explain reasoning
-
-### Humor and Emoji Integration
-- Use 😄 for general positive emotions
-- Use 🚀 for progress, growth, or exciting developments
-- Use 😊 for friendly, approachable moments
-- Add light humor when appropriate to engage readers
-- Don't overdo emojis - use them purposefully
-- Make sure humor fits the topic and audience
 
 ### Sentence Structures
 - Simple subject-verb-object constructions
@@ -138,7 +123,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 3. Walk through the steps taken
 4. Share the outcome or lessons learned
 5. End with encouragement or advice for others
-6. Add a touch of humor to keep readers engaged 😊
 
 ### For Educational Posts
 1. Introduce the topic with context
@@ -146,7 +130,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 3. Provide practical examples
 4. Explain why it matters
 5. Encourage further exploration
-6. Use light humor to make complex topics more digestible 😄
 
 ### For Inspirational Posts
 1. Share a personal experience
@@ -154,7 +137,6 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 3. Emphasize learning and growth
 4. Encourage others to take similar steps
 5. End with positive outlook
-6. Add personality to make the inspiration feel genuine 🚀
 
 ## Voice Consistency Tips
 
@@ -166,6 +148,3 @@ This reference contains examples and patterns of Sheikh Mohammad Ahmed's writing
 - Ask questions to engage readers
 - Use "so" to connect ideas naturally
 - Include brief personal asides that add character
-- Add light humor to make posts more engaging 😄
-- Use emojis strategically to enhance the tone
-- Keep professional content approachable and human
