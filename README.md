@@ -134,3 +134,11 @@ For more information on Claude Code features and workflows, refer to Part 2, Cha
 ## Repository
 
 [View Project Repository](https://agentfactory.panaversity.org/factory?checkpoint=A1)
+
+## Demo Video
+
+Watch a 60-90 second demonstration of the skills in action:
+
+[Demo Video](./demo_video.webm)
+
+This video showcases how the developed skills automate routine tasks and provide measurable time savings as described in the Skills Impact & Success Metrics section.
