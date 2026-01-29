@@ -1,3 +1,3 @@
 @AGENTS.md
 
-Read the Instruction in @AGENTS.md
+Read the Instructions in @AGENTS.md
